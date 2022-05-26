@@ -7,17 +7,56 @@
     <title>Live User Filter</title>
   </head>
   <body>
-    <div class="container">
-      <header class="header">
-        <h4 class="title">Live User Filter</h4>
-        <small class="subtitle">Search by name and/or location</small>
-        <input type="text" id="filter" placeholder="Search">
-      </header>
-      <ul id="result" class="user-list">
-        <li>
-          <h3>Loading...</h3>
-        </li>
-      </ul>
+   
+    <!-- component 1 user filter -->
+    <div class="grid">
+
+      <div class="navbar">
+        
+      </div>
+      <div class="left-container">
+        <div class="search-box">
+          <header class="header">
+            <h4 class="title">Live User Filter</h4>
+            <small class="subtitle">Search by name and/or location</small>
+            <input type="text" id="filter" placeholder="Search">
+          </header>
+          <ul id="result" class="user-list">
+            <li>
+              <h3>Loading...</h3>
+            </li>
+          </ul>
+    
+        </div>
+      </div>
+  
+  
+      <!-- component 2 slider carousel -->
+      <div class="right-container">
+        <div class="slider">
+          <div class="slide">
+            <img
+              src="https://source.unsplash.com/random?landscape,mountain"
+              alt=""
+            />
+          </div>
+          <div class="slide">
+            <img src="https://source.unsplash.com/random?landscape,cars" alt="" />
+          </div>
+          <div class="slide">
+            <img src="https://source.unsplash.com/random?landscape,night" alt="" />
+          </div>
+          <div class="slide">
+            <img src="https://source.unsplash.com/random?landscape,city" alt="" />
+          </div>
+    
+     
+          <button class="btn btn-next"></button>
+          <button class="btn btn-prev"></button>
+        
+          </div>
+      </div>
+        
     </div>
     <script src="script.js"></script>
   </body>
