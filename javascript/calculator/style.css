@@ -1,0 +1,15 @@
+.calculator{
+    border: 1px solid red
+}
+.digit{
+    border: 1px solid blue;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+.operation{
+    border: 1px solid green;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}

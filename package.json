@@ -1,0 +1,22 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "# react-practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samyfrey/JS-mini-projects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samyfrey/JS-mini-projects/issues"
+  },
+  "homepage": "https://github.com/samyfrey/JS-mini-projects#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
