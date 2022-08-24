@@ -5,9 +5,6 @@
     width: 500px;
 }
 
-.product-selection{
-    border: green 1px solid;
-    display: flex;
-    height: 500px;
-    width: 250px;
+.shopping-cart{
+    border: 3px grey solid
 }
